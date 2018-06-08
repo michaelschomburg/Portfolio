@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Michael Schomburg</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,300,400,500,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,700" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/slick.css">
+		<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+
+
+
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<header class="project1">
+			<div class="container clearfix">
+        <button class="hamburger" onclick="goBack()" style="left:0;">&#8592;</button>
+					<a  id="top" href="index.html"><h1 class="name">//Michael Schomburg</h1></a>
+					<!-- <div class="navigation"> -->
+						<button class="hamburger">&#9776;</button>
+  					<button class="cross">&#735;</button>
+						<ul class="main-nav menu">
+							<li><a href="#" title="Home" class="home-button" onclick="scrollIt(document.querySelector('#top'))">home</a></li>
+							<li><a href="index.html" title="Portfolio" class="portfolio-button" onclick="scrollIt(document.querySelector('#portfolio'))" >portfolio</a></li>
+							<li><a href="workshop.html" title="" class="skills-button nav-button" onclick="scrollIt(document.querySelector('#skills'))">Workshop</a></li>
+							<li><a href="about.html" title="Contact" class="contacts-button nav-button" onclick="scrollIt(document.querySelector('#contacts'))">About</a></li>
+					</ul>
+				</div>
+			<!-- </div> -->
+		</header>
+		<!-- /header -->
+    <div class="container">
+			<h1 class="project-title">ToolArchive //June 2017</h1>
+      <div id="project-images">
+        <div class="images">
+
+            <div class="image1">
+            	<img src="img/toolArchive/toolarchivelanding_2x.png" alt="">
+            </div>
+						<div class="image2">
+							<img src="img/toolArchive/toolarchivesearch_2x.png" alt="">
+						</div>
+						<div class="image3">
+							<img src="img/toolArchive/toolarchiveItem_2x.png" alt="">
+						</div>
+						<div class="image4">
+							<img src="img/toolArchive/wireframe1.png" alt="">
+						</div>
+						<div class="image5">
+							<img src="img/toolArchive/wireframe2.png" alt="">
+						</div>
+						<div class="videoWrapper">
+							<iframe  src="https://www.youtube.com/embed/FdsLtTlkSjg?&autoplay=1;rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						</div>
+        </div>
+
+        <div class="description">
+          <h2>Description</h2>
+          <p>The ToolArchive was a project within Studio Lust in Den Haag. The projects goal was to create a digital archive of the created tools within the studio. Tools were things such has simple but custom build webcrawlers, control software for museums installations or other custom build software. The intention was to create a plattform where designers and developers could equally access the tools, to either inform themselves over the expertise within the studio or access sourcecode. Therefore, the archive had to be functional but also visually appealing and inspiring for the design team.<br>The project can be found here: <a href="https://drive.google.com/file/d/1vCouAQztUXE6DdloGVluRNKaokLE3BeN/view?usp=sharing">Bachelor Thesis</a><br> <a href="https://drive.google.com/file/d/1pKH5V-UvCDOvbpUsREJd2K-JnyQFsytQ/view?usp=sharing">Research Paper</a><br> <a href="https://github.com/michaelschomburg/ToolArchive">GitHub Repository</a>
+          </p>
+          <h2>Role</h2>
+          <p>This project was my graduation project for the Bsc. Industrial Design. This involved a five month internship at Studio Lust in Den Haag. The project was independently setup based on the initial problem statement by the studio.
+					<ul>
+						<br>
+						<!-- <b>Main responsibilities</b> -->
+						<li>Academic research <b>1.</b></li>
+						<li>Project setup and organisation <b>2.</b></li>
+						<li>Design research <b>3.</b></li>
+						<li>UI/UX Design <b>4.</b></li>
+						<li>High  & Low quality prototypes <b>5.</b></li>
+					</ul>
+      </div>
+
+
+    </div>
+    <footer>
+			<div class="container">
+				<p class="student-name">Michael Schomburg</p>
+				<p class="back-to-top"><a href="#" title="back to top" onclick="scrollIt(document.querySelector('#top'))">Back to top</a></p>
+				<nav class="main-nav-footer">
+					<a href="index.html" title="Home" onclick="scrollIt(document.querySelector('#home'))">home</a>
+	        <a href="#" title="Portfolio" onclick="scrollIt(document.querySelector('#portfolio'))">portfolio</a>
+	        <a href="workshop.html" title=""  onclick="scrollIt(document.querySelector('#skills'))">Workshop</a>
+	        <a href="about.html" title="Contact" onclick="scrollIt(document.querySelector('#contacts'))">About</a>
+				</nav>
+			</div>
+	</footer>
+	<script  src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+	<script>
+		if (window.matchMedia("(max-width: 760px)").matches) {
+  	document.write('<script type="text/javascript" src="js/slick.min.js"><\/script>');
+}
+
+</script>
+		<script src="js/script.js"></script>
+</body>
+</html>

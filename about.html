@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Michael Schomburg</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,300,400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/slick.css">
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="container clearfix">
+      <button class="hamburger" onclick="goBack()" style="left:0;">&#8592;</button>
+      <a id="top" href="index.html"><h1 class="name">//Michael Schomburg</h1></a>
+      <!-- <div class="navigation"> -->
+      <button class="hamburger">&#9776;</button>
+      <button class="cross">&#735;</button>
+      <ul class="main-nav menu">
+        <li><a href="#" title="Home" class="home-button nav-button" onclick="scrollIt(document.querySelector('#top'))">home</a></li>
+        <li><a href="#" title="Portfolio" class="portfolio-button nav-button" onclick="scrollIt(document.querySelector('#portfolio'))">portfolio</a></li>
+        <li><a href="workshop.html" title="" class="skills-button nav-button" onclick="scrollIt(document.querySelector('#skills'))">Workshop</a></li>
+        <li><a href="about.html" title="Contact" class="contacts-button nav-button" onclick="scrollIt(document.querySelector('#contacts'))">About</a></li>
+      </ul>
+    </div>
+    <!-- </div> -->
+  </header>
+  <!-- /header -->
+  <div class="container about">
+    <img class="profile-image" src="img/meduotonetry.jpg" alt="">
+    <div class="skills container clearfix">
+      <h3 id="skills" class="section-title">Skills</h3>
+      <div class="skill_design">
+        <h3>Design</h3>
+        <img src="images/photoshop.png" alt="photoshop">
+        <img src="images/illustrator.svg" alt="illustrator">
+        <img src="images/indesign.png" alt="indesign">
+      </div>
+      <div class="skill_code">
+        <h3>Code</h3>
+        <img src="images/javascript.png" alt="JavaScript">
+        <img src="images/html.png" alt="Html">
+        <img src="images/css.png" alt="Css">
+      </div>
+    </div>
+
+    <div class="personal-profile">
+      <p>
+        I grew up in the industrial influenced area of Wolfsburg but spent the last years among different cultures and lifestyles in Manchester as well as Den Haag. I have a passion not only for technology and design but also for good records, football and a
+        good cup of tea. <br><br> As a designer and aspiring Front-end Developer I am driven by the prospect that physical and digital products are equals, and when combined, have a significant influence on the human behaviour. Being a digital native
+        that has experienced the development of the social media era, I see a need for flawlessly implemented products, that keep up with our ever changing digital environment. I finished my studys in Industrial Design in the Netherlands and put my focus
+        on UX/UI Design. I am currently working on connecting the design world and the tech world through supplementing my design skills with front-end development. I do this through selfinitiated projects which you can find throughout this website as well as at the online school "TeamTreehouse".
+      </p>
+    </div>
+
+    <div class="contact">If you want to get in touch with me, I would love to hear from you. So lets have a <a href="" mailto:schomburg.michael90@gmail.com ""><b>chat!</b></a></div>
+    <div class="cv">
+      If you can't get enough check out my  <a href="#"><b>CV</b></a>
+    </div>
+
+    <div class="social">
+      <a href="https://www.instagram.com/tunichtgut90/"><i class="fab fa-instagram fa-3x"></i></a>
+      <a href="https://www.facebook.com/schomburgmichael"><i class="fab fa-facebook fa-3x"></i></a>
+      <a href="https://www.linkedin.com/in/michael-schomburg/"><i class="fab fa-linkedin fa-3x"></i></a>
+      <a href="https://github.com/michaelschomburg"><i class="fab fa-github fa-3x"></i></a>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <p class="student-name">Michael Schomburg</p>
+      <p class="back-to-top"><a href="#" title="back to top" onclick="scrollIt(document.querySelector('#top'))">Back to top</a></p>
+      <nav class="main-nav-footer">
+        <a href="index.html" title="Home" onclick="scrollIt(document.querySelector('#home'))">home</a>
+        <a href="index.html/#portfolio" title="Portfolio" onclick="scrollIt(document.querySelector('#portfolio'))">portfolio</a>
+        <a href="workshop.html" title=""  onclick="scrollIt(document.querySelector('#skills'))">Workshop</a>
+        <a href="about.html" title="Contact" onclick="scrollIt(document.querySelector('#contacts'))">About</a>
+      </nav>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  <script>
+    if (window.matchMedia("(max-width: 760px)").matches) {
+      document.write('<script type="text/javascript" src="js/slick.min.js"><\/script>');
+    }
+  </script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

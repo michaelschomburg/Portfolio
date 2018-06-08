@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Michael Schomburg</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,300,400,500,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,700" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/slick.css">
+		<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+
+
+
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<header class="project2">
+			<div class="container clearfix">
+        <button class="hamburger" onclick="goBack()" style="left:0;">&#8592;</button>
+					<a  id="top" href="index.html"><h1 class="name">//Michael Schomburg</h1></a>
+					<!-- <div class="navigation"> -->
+						<button class="hamburger">&#9776;</button>
+  					<button class="cross">&#735;</button>
+						<ul class="main-nav menu">
+							<li><a href="#" title="Home" class="home-button" onclick="scrollIt(document.querySelector('#top'))">home</a></li>
+							<li><a href="index.html" title="Portfolio" class="portfolio-button" onclick="scrollIt(document.querySelector('#portfolio'))" >portfolio</a></li>
+							<li><a href="workshop.html" title="" class="skills-button nav-button" onclick="scrollIt(document.querySelector('#skills'))">Workshop</a></li>
+							<li><a href="about.html" title="Contact" class="contacts-button nav-button" onclick="scrollIt(document.querySelector('#contacts'))">About</a></li>
+					</ul>
+				</div>
+			<!-- </div> -->
+		</header>
+		<!-- /header -->
+    <div class="container">
+			<h1 class="project-title">GoSar app //January 2017</h1>
+      <div id="project-images">
+        <div class="images">
+
+            <div class="image1">
+            	<img src="img/gosar/splashscreen2.png" alt="">
+              <img src="img/gosar/landingpage2.png" alt="">
+            </div>
+						<div class="image2">
+							<img src="img/gosar/transportation.png" alt="">
+              <img src="img/gosar/marketmap.png" alt="">
+						</div>
+						<div class="image3">
+							<img src="img/gosar/flowchart.png" alt="">
+						</div>
+						<!-- <div class="image4">
+							<img src="img/toolArchive/wireframe1.png" alt="">
+						</div> -->
+						<!-- <div class="image5">
+							<img src="img/toolArchive/wireframe2.png" alt="">
+						</div> -->
+            <p style="text-align: left; padding-left: 1em;">App presetation video</p>
+						<div class="videoWrapper">
+							<iframe src="https://www.youtube.com/embed/EJJoidYc6JQ?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						</div>
+            <p style="text-align: left; padding-left: 1em;">Early prototype animation</p>
+            <div class="videoWrapper">
+              <iframe src="https://www.youtube.com/embed/wGc9ep9_33o?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="description">
+          <h2>Description</h2>
+          <p>The ‘Go-sar’ app was developed during the Data4Food Challenge, organized by the Centre for Innovation (Leiden University – The Hague Campus) and the Dutch Ministry of Foreign Affairs. The goal of the app is to enable small-holder farmers in Indonesia to find the market which pays the best value at the given time of use. The user decides what product they want to sell and what means of transportation they will take. Based on this information three potential markets are given. The Project is done in cooperation with Het Proces Design Studio</p>
+          <h2>Role</h2>
+          <p>This project was done during a five Month internship at design studio "Het Process" in Rotterdam.  My task was to take the idea to the first functional prototype phase. In this process I did design as well as project related research, designed the app, and in coorporation with a developer build the app. Furthermore, I was responsible for an app presetation video as well as the usability test.
+					<ul>
+						<br>
+						<!-- <b>Main responsibilities</b> -->
+						<li>Design&Project Research <b>1.</b></li>
+						<li>UI/UX Design <b>3.</b></li>
+						<li>High  & Low quality prototypes <b>4.</b></li>
+						<li>Presentation video production <b>5.</b></li>
+            <li>User testing <b>2.</b></li>
+					</ul>
+      </div>
+
+
+    </div>
+    <footer>
+			<div class="container">
+				<p class="student-name">Michael Schomburg</p>
+				<p class="back-to-top"><a href="#" title="back to top" onclick="scrollIt(document.querySelector('#top'))">Back to top</a></p>
+				<nav class="main-nav-footer">
+					<a href="index.html" title="Home" onclick="scrollIt(document.querySelector('#home'))">home</a>
+	        <a href="#" title="Portfolio" onclick="scrollIt(document.querySelector('#portfolio'))">portfolio</a>
+	        <a href="workshop.html" title="" onclick="scrollIt(document.querySelector('#skills'))">Workshop</a>
+	        <a href="about.html" title="Contact" onclick="scrollIt(document.querySelector('#contacts'))">About</a>
+				</nav>
+			</div>
+	</footer>
+	<script  src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+	<script>
+		if (window.matchMedia("(max-width: 760px)").matches) {
+  	document.write('<script type="text/javascript" src="js/slick.min.js"><\/script>');
+}
+
+</script>
+		<script src="js/script.js"></script>
+</body>
+</html>
