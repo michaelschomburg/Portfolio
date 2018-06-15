@@ -362,7 +362,6 @@ footer>.container {
 
 .test {
   background-image: url("../img/Workshop/workshop.png");
-  /* background-size: contain; */
   background-repeat: no-repeat;
   background-position: right;
   padding-top: 0px;
