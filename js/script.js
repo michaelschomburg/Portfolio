@@ -95,7 +95,7 @@ window.sr = ScrollReveal({
 
 sr.reveal('.project');
 sr.reveal('#contacts');
-sr.reveal('.image1, .image2, .image3, .image4, .image5, .image6, iframe');
+sr.reveal('.image1, .image2, .image3, .image4, .image5, .image6');
 
 
 

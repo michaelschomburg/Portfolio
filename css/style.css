@@ -346,35 +346,79 @@ footer>.container {
 /*about*/
 
 .intro {
-  margin-top: 2em;
+font-weight: 400;
+font-size: 18px;
+margin-top: 3em;
 }
 
-.pp-link {
-  position: absolute;
-  top: 48em;
-  left: 6em;
+.school--container {
+display: flex;
+justify-content: space-between;
+margin: 3em 0;
+
+
 }
 
-.workshop-impre {
+.lecture-workshop--container__item {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+  height: 15em;
+  border: 5px solid black;
+  margin: 1em;
 }
 
-.test {
-  background-image: url("../img/Workshop/workshop.png");
-  background-repeat: no-repeat;
-  background-position: right;
-  padding-top: 0px;
-  width: 50%;
+.lecture-workshop--container__text {
+  padding: 0.1em 0.5em;
+  color: white;
+  background-color: black;
+  text-align: center;
+  margin: auto;
+}
+
+.workshop-impression__1,
+.workshop-impression__2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image--2 {
+  position: relative;
+overflow: hidden;
+}
+
+
+.image--1,
+.image--2,
+.image--3,
+.sketch-holder {
+  width: 40%;
   height: auto;
 }
 
-#workshop-vid {
-  width: 25%;
+@media (max-width: 720px) {
+.image--4,
+.sketch-holder {
+  display: none;
 }
 
-#sketch-holder {
-  width: 25%;
+}
+
+.workshop-image-1 {
+  height: auto;
+  width: 70%;
+}
+
+.image--2 #workshop-vid{
+  position: absolute;
+ top:0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+}
+
+.workshop--description {
+  margin: 5em;
+
 }
 
 /*workshop*/
