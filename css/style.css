@@ -353,7 +353,7 @@ margin-top: 3em;
 
 .school--container {
 display: flex;
-justify-content: space-between;
+justify-content: space-around;
 margin: 3em 0;
 
 
@@ -378,7 +378,7 @@ margin: 3em 0;
 .workshop-impression__1,
 .workshop-impression__2 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .image--2 {
